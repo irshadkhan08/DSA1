@@ -17,10 +17,10 @@ public class Conditionals {
 
         int marks = 98;
         if(marks>90){
-            System.out.println ("A+");
+            System.out.println ("Assss.java+");
         }
         else if(marks>80){
-            System.out.println ("A");
+            System.out.println ("Assss.java");
         }
         else if(marks>70){
             System.out.println ("B+");

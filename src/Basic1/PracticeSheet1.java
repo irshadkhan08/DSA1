@@ -114,7 +114,7 @@ public class PracticeSheet1 {
         grade = grade.toUpperCase();
 
         switch(grade){
-            case "A" :
+            case "Assss.java" :
                 System.out.println ("congratulations!! your marks is 75-100");
                 break;
             case "B":

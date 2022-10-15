@@ -20,8 +20,6 @@ public class Leaders {
                 System.out.print (temp[b]+" ");
             }
 
-
-
 //        int cur = 0;
 //        int a[] = {2,7,6,2,1,4,3};
 //        loop1:

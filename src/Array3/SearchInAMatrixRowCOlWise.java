@@ -25,8 +25,8 @@ public class SearchInAMatrixRowCOlWise {
                 {8,12,15,18}
         };
 
-        SearchMatrix(a,1100);
-        System.out.println (SearchMatrix (a,1100));
+        SearchMatrix(a,6);
+        System.out.println (SearchMatrix (a,11));
 
     }
 }

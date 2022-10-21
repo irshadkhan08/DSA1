@@ -26,30 +26,48 @@ public class TrappingRainWater {
 //            System.out.print(r[j]+" ");
 //        }
 
-        int a[] = {1,0,2,1,0,1,3,2,1,2,1};
-        int lmx = 0,rmx = 0;
+        int a[] = {1,0,2,1,0,1,3,2,1,2,1};//1+
         int l = 0;
-        int r = 0;
-        int i = 0;
-        int j = a.length-1;
-        while(i<=j){
-            if(a[i]<=a[j])
-            {
-                if(a[i]> lmx){
-                 lmx = a[i];
-                }else
-                    r = r+lmx-a[i];
-                i++;
-            }
-            else{
-               if(a[j]>rmx){
-                   rmx = a[j];
-               }else
-                r = r+rmx-a[j];
-               j--;
+        int r = a.length-1;
+        int lmx = 0;
+        int rmx = 0;
+        int ans = 0;
+        while(l<r){
+            if(a[l]<=a[r]){
+                if(a[l]>lmx){
+                    lmx = a[l];//1
+                }else {
+                    ans = ans + lmx - a[l];
+                }
+                l++;
+            }else{
+                if(a[r]>rmx){
+                    rmx = a[r];
+                }else {
+                    ans = ans + rmx - a[r];
+                }
+                r--;
             }
         }
-        System.out.println (r);
+        System.out.println (ans+" ");
+//        while(i<=j){// 1<=1
+//            if(a[i]<=a[j]) //
+//            {
+//                if(a[i]> lmx){
+//                 lmx = a[i];
+//                }else
+//                    r = r+lmx-a[i];
+//                i++;
+//            }
+//            else{
+//               if(a[j]>rmx){
+//                   rmx = a[j];
+//               }else
+//                r = r+rmx-a[j];
+//               j--;
+//            }
+//        }
+//        System.out.println (r);
 
 
 //        int min  =0;

@@ -1,5 +1,7 @@
 package LinkedListBasics1;
 
+
+
 public class FindMiddleElement {
     public static void prints(Nodes head){
         Nodes cur = head;
@@ -20,6 +22,7 @@ public class FindMiddleElement {
         }
 //        return fast.data; //50
         return slow.data;
+
     }
     public static void main(String[] args) {
         Nodes n1 = new Nodes (10);
@@ -34,7 +37,8 @@ public class FindMiddleElement {
         n4.next = n5;
 
         prints(head);
-//        FindElement( head);
+        FindElement( head);
+        prints (head);
         //prints (head);
         System.out.println (FindElement( head));
     }

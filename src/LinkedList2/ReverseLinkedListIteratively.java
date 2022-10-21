@@ -1,5 +1,7 @@
 package LinkedList2;
 
+
+
 public class ReverseLinkedListIteratively {
     public static void prints(Node head){
         while(head!=null) {
@@ -20,6 +22,7 @@ public class ReverseLinkedListIteratively {
             cur = temp;//20//30//40//50//null
         }
         return prev;//null<-10<-20<-30<-40-50
+
     }
     public static void main(String[] args) {
         Node n1 = new Node(10);

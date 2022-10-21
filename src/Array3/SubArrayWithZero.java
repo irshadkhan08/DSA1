@@ -6,7 +6,7 @@ import java.util.Set;
 public class SubArrayWithZero {
     public static void main(String[] args) {
         int a[] = {2, 3, 1, -4, 3, -2};//true
-        //int a[] = {2, 3, 1, 4, 3, 2};//false
+       // int a[] = {2, 3, 1, 4, 3, 2};//false
         int preSum = 0;
         int t = 0;
         boolean isTrue = false;
